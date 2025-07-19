@@ -30,7 +30,6 @@ yarn.lock
 
 # Ignore local test/deploy scripts if any
 *.sh
-*.bat
 
 # System files
 ehthumbs.db
