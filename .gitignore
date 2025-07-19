@@ -1,0 +1,37 @@
+# Terraform state and backup files
+*.tfstate
+*.tfstate.backup
+.crash/
+.terraform/
+
+# Local terraform overrides and config
+.terraform.lock.hcl
+
+# Executables and binaries
+terraform.exe
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Node/JavaScript stuff (for stressTesting.js.js)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+
+# Ignore local test/deploy scripts if any
+*.sh
+*.bat
+
+# System files
+ehthumbs.db
+desktop.ini
